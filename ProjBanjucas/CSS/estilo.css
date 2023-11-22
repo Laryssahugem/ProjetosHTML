@@ -1,0 +1,53 @@
+body{
+    background-color: #c6c6c6;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+}
+nav
+{
+    border: 2px solid #000;
+    background-color: #c79af1;
+    width: 100%;
+    height: 10vh;
+    margin-top: auto;
+}
+nav ul li a, nav a {
+    list-style-type: none;
+}
+p{/* seletor*/
+    color: black;/*propriedade valor*/
+}
+/*div{border: 5px outset red;
+    background-color: lightblue;    
+    text-align: center;} A tag <div> agrupa todo conteúdo que é adicionado a ela, mas não tem semantica  */
+/*main {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;}diz para os navegadores onde está o conteúdo principal de aplicação*/
+/*span {
+    color:blue;
+    font-weight:bold;}  é um contêiner embutido usado para marcar uma parte de um texto ou parte de um documento*/
+table
+{
+    border: 1px solid black;
+}
+th, td
+{
+    border: 1px solid rgb(21, 173, 179);
+}
+img{
+    width: 10%;
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    display: block;
+}
+a{
+    border: 10px solid black;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    
+}

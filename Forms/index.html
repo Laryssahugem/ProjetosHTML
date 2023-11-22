@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/resert.css">
+    <link rel="stylesheet" href="./CSS/Estilo.css">
+    <title>Formulário do Torcedor</title>
+</head>
+
+<body>
+    <h1>Formulário do Torcedor</h1>
+    <form action="formulario.php" method="GET">
+        <fieldset>
+            <legend>Dados do torcedor </legend>
+        <div class="componet-form">
+            <label for="nome-front">Nome:</label>
+            <input type="text" nome="nome" id="nome-front" placeholder="Digite seu nome" required>
+        </div>
+        
+        <div class="componet-form">
+            <label for="idade-front">Idade:</label>
+            <input type="number" name="idade" id="idade-front" max="131" min="0">
+        </div>
+        
+        <div class="componet-form">
+            <label for="ultima-partida-front">
+                Última partida que viu do seu time foi em:
+            </label>
+            <input type="date" name="data-ultima-partida" id="ultima-partida-front">
+        </div>
+        
+        <div class="componet-form">
+            <label for="email-front">Email:</label>
+            <input type="email" name="email" id="email-front" required>
+        </div>
+        
+        <div class="componet-form">
+            <label>Gênero:</label><br>
+            <div><input type="radio" name="generos" id="genero-mas-front" value="Masculino" checked>
+            <label for="genero-mas-front">Maculino</label></div>
+            <div><input type="radio" name="generos" id="genero-fem-front" value="Feminino">
+            <label for="genero-mas-front">Feminino</label></div>
+            <div><input type="radio" name="generos" id="genero-ind-front" value="Indefinido">
+            <label for="genero-mas-front">Indefinido</label></div>
+        </div>
+        
+        <div class="componet-form">
+            <label>Opções:</label><br>
+            <input type="checkbox" name="socio-torcedor" id="socio-torcedor-front">
+            <label for="socio-torcedor-front"> Possuo cartão de sócio torcedor</label> <br>
+            
+            <input type="checkbox" name="frequencia-estadio" id="frequencia-estadio-front">
+            <label for="frequencia-estadio-front"> Vou ao estádio pelo menos uma vez por mês</label> <br>
+        </div>
+        
+        <div class="componet-form">
+            <label for="time-coracao">Seu time do coração é:</label>
+            <select name="time" id="time-front">
+                <option>Escolha seu time</option>
+                <option value="spo">São Paulo</option>
+                <option value="cor">Corinthians</option>
+                <option value="san">Santos</option>
+                <option value="pal">Palmeiras</option>
+            </select>
+        </div>
+        
+        <div class="componet-form">
+            <label for="satisfacao-front">Nível de satisfação com seu time:</label> <br>
+            <input type="range" name="satisfacao" id="satisfacao-front" max="10" min="1" value="5">
+        </div>
+        
+
+        <div class="componet-form">
+            <label for="sugestoes-front"> Deixe aqui sua sugestão:</label> <br>
+            <textarea name="sugestoes" id="sugestoes-front" cols="30" rows="10" placeholder="Sugestões"> </textarea>
+            
+        </div>
+
+        <fieldset>
+            <legend> Dados do seu prêmio </legend>   
+
+        <div class="componet-form">
+            <label for="2-time-coracao-front"> 2° Time do coração</label>
+            <input type="text"nome="2-time-coracao" id="2-time-coracao-front">
+        </div>
+                
+        <div class="componet-form">
+                <label >Qual final internacional gostaria de assistir?</label><br>
+                <input type="radio" name="final-internacional" id="final-internacional-uefa" value="UEFA">
+                <label for="final-internacional-uefa">UEFA</label>
+                <input type="radio" name="final-internacional" id="final-internacional-liber" value="Libertadores">
+                <label for="final-internacional-liber">Libertadores</label>
+                <input type="radio" name="final-internacional" id="final-internacional-nacio" value="Capeonato Nacional">
+                <label for="final-internacional-nacio">Capeonato Nacional</label>
+
+        </div>
+
+        <div class="componet-form">
+            <label>Na premiação:</label><br>
+            <input type="checkbox" name="estádio" id="estádio-front">
+            <label for="estádio-front"> Incluir visita ao estádio</label> <br>
+            
+            <input type="checkbox" name="clube" id="clube-front">
+            <label for="clube-front"> incluir visita a galeria de títulos do clube</label> <br>
+        </div>
+
+        <div class="componet-form">
+            <label for="tranporte">Transporte: será pago pelo premiado</label>
+            <select name="tranporte" id="tranporte-front">
+                <option>Escolha seu tranporte</option>
+                <option value="terretre">Terrestre</option>
+                <option value="aereo">Aéreo</option>
+            </select>
+        </div>
+            
+        <div class="componet-form">
+            <label for="pagamento">Forma de pagamento</label>
+            <select name="pagamento" id="pagamento-front">
+                <option>Escolha seu pagamento</option>
+                <option value="boleto">Boleto</option>
+                <option value="débito">Débito</option>
+                <option value="crédito">Crédito</option>
+            </select>
+        </div>
+
+        <div class="componet-form">
+            <label>Portador de necessidades especiais?:</label><br>
+            <div><input type="radio" name="portador" id="sim-front" value="sim">
+            <label for="sim-front">Sim</label></div>
+            <div><input type="radio" name="portador" id="nao-front" value="não">
+            <label for="nao-front">Não</label></div>
+        </div>
+
+        <div class="componet-form">
+            <label for="quais-necessidade"> Quais Necessidades? </label> <br>
+            <textarea name="quais-necessidade" id="quais-necessidade-front" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="componet-form">
+            <label for="observacoes-front"> Observações gerais:</label> <br>
+            <textarea name="observacoes" id="observacoes-front" cols="30" rows="10" placeholder="Observações"> </textarea>
+        </div>
+
+        
+        </fieldset>
+        
+        <div class="componet-form"> 
+            <input class="btn-limpar" type="reset" value="Limpar formulário">
+            <input class="btn-enviar" type="submit" value="Enviar">
+        </div>
+        
+        
+
+
+
+    </form>
+
+</body>
+
+</html>

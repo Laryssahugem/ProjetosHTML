@@ -1,0 +1,66 @@
+:root
+{
+    --cor-primaria: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #929297;
+    --cor-quaternária: #7789dd;
+    font-size: 18px;
+}
+body
+{
+    background-image: url(../Imagens/padrao-sem-emenda-de-simbolos-de-futebol-cinza-em-preto_444390-1745.avif);
+}    
+h1
+{
+
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+legend
+{
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 60;
+    font-size: 28px;
+    color: white;
+    padding: 20px;
+    display:flex;
+    justify-content: left;
+}
+.componet-form
+{
+    color: var(--cor-secundaria);
+    justify-content: left;
+    width: 100%;
+    padding: 16px 20px;
+    
+}
+textarea{
+    padding: 10px;
+    border: 0;
+    width: auto;
+    font-size: 1rem;
+    background-color: #666565;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-limpar,.btn-enviar
+{
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #7d8485;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    outline: none;
+    border: none;
+}

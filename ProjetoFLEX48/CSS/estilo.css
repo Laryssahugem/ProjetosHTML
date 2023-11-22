@@ -1,0 +1,48 @@
+:root{
+--cor-primaria: #dcd7fa;
+--cor-secundaria: #bf7df5;
+--cor-terciaria: #9498cf;
+--cor-quaternária: #f1ecf5;
+font-size: 24px;
+}
+
+
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor-primaria);
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-weight: bold;
+}
+img{
+    width: 10vw;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer{
+    text-align: center;
+    background-color: var(--cor-primaria);
+    padding: 30px 0;
+}
+.area-restrita{
+    display:flex;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    padding: 0 20px;
+}
+.Cards{
+    border: 1px solid var(--cor-terciaria);
+    width: 32vw;
+    line-height: 1rem;
+    padding: 24px;
+    background-color: var(--cor-quaternária);
+    height: 50vh;
+}

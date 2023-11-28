@@ -41,13 +41,24 @@
             <div>
                 <input type="submit" value="Calcular">
                 <input type="reset" value="Limpar Campos">
+                <input type="button" value="Mostrar Resultado" onclick="Calcular();">
             </div>
 
-            <script src="./JS/calculadora2.js"></script>
+            
 
         </form>
-    </main>
 
+        <div>
+            <label for="resultado">Resultado</label>
+            <input type="text" name="result" id="resultado">
+        </div>
+
+        <p id="pResultado">
+
+        </p>
+
+    </main>
+    <script src="./JS/calculadora2.js"></script>
 </body>
 
 </html>
